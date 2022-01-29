@@ -1,0 +1,109 @@
+
+
+html {
+    background-color: hsl(217, 54%, 11%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+main{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 3%;
+    height:  445px;
+    width: 260px;
+    padding: 2%;
+    box-shadow:0px 0px 10px 3px  hsl(218, 44%, 10%);
+}
+
+.card{
+    font-family: 'Outfit';
+}
+.card-picture{
+    display: inline-block;
+    position: relative;
+    max-width: 130%;
+    border-radius: 2%;
+    margin-top: -2%;
+    margin-left: -15%;
+    margin-right: 0%;
+    filter: saturate(130%);
+    filter: contrast(110%);
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+    text-align: left;
+    margin-left: 5%;
+}
+.card-phrase{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 5%;
+    color:  hsl(215, 51%, 70%);
+}
+.card-icon{
+    display: inline-block;
+    margin-left: 5%;
+}
+.card-coin{
+    display: inline-block;
+    position: static;
+    color:hsl(178, 100%, 50%);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 0.5%;
+    position: absolute;
+    
+}
+.card-clock{
+    display: inline;
+    margin-left:  50%;
+    position: static;
+}
+.card-days{
+    display: inline-block;
+    margin-left: 0.5%;
+    color: #8bacda ;
+    font-size: 16px;
+    position: absolute;
+    font-weight: bold;
+}
+.line{
+    width: auto;
+    margin-left: 4%;
+    margin-right: 5%;
+    padding: 0;
+}
+
+.card-photo{
+    display: inline-block;
+    position: static;
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 4%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.card-author{
+    font-size: 14px;
+    display: inline;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+}
+.author-name{
+    font-size: 14px;
+    color: white;
+    font-family: 'Outfit';
+}
+
+.attribution{
+    margin-top: 3%;
+    color: white;
+}
