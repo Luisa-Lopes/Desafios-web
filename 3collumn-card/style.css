@@ -1,0 +1,84 @@
+
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+table{
+    margin-top: 7%;
+    display: inline-table;
+    width: 85%;
+    max-width: 800px;
+    text-align: left;
+    min-height: 400px;
+    box-shadow: 20px 20px 10px rgb(13, 11, 46);
+    
+}
+
+img{
+    margin-top: -20%;
+    margin-left: 15%;
+}
+.flyer-name{
+    margin-top: 0%;
+    margin-left: 5%;
+    color: white;
+    font-family:'Lexend Deca',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 4px;
+    padding: 10%;
+}
+.flyer-car-sedan{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:  10px; ;
+    width: 33%;
+    background-color: hsl(31, 77%, 52%);
+}
+.flyer-car-suv{ 
+    width: 33%;
+    background-color: hsl(184, 100%, 22%) ;
+}
+.flyer-car-luxury{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(13, 11, 46);
+    width: 33%;
+    background-color:hsl(179, 100%, 13%) ;
+}
+.flyer-phrase{
+    margin-top: -10%;
+    margin-left: 15%;
+    margin-right: 10%; 
+    text-align: left;
+    font-size:  15px;
+    font-family: 'Lexend Deca',sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2{
+    margin-top: 20%;
+    margin-bottom: 0%;
+    padding:5% ;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lexend Deca';
+    border-radius: 20px;
+    background-color: white;
+}
+.footer-sedan{
+    color:hsl(31, 77%, 52%);
+}
+.footer-suv{
+    color: hsl(184, 100%, 22%);
+}
+.footer-luxury{
+  
+    color: hsl(179, 100%, 13%) ;
+}
+

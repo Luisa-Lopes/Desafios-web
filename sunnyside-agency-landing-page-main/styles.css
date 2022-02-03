@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,800;1,100;1,700;1,800&family=Lexend+Deca:wght@100&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+html,body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    color: white;
+    background-image: url(/images/desktop/image-header.jpg);
+}
+.background{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding:2%;
+    padding-bottom: 0%;
+}
+.header_name{
+    font-family: 'Fraunces', serif;
+    justify-content: flex-start;
+}
+
+.header_options{
+    justify-content: flex-end;
+}
+.option{
+    color: white;
+}
+.item{
+    margin-inline: 1%;
+    padding: 4%;
+}
+.contact{
+    padding-inline: 5%;
+    border-radius: 45%;
+    color:  hsl(192, 100%, 60%) ;
+    background-color: white;
+}
+.header_title{
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+}
+.section1, .section2, .section3{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+
+.section1-title, .section2-title, .section3-title1, .section3-title2, .footer-title{
+    font-family: 'Fraunces', serif;
+}
+
+.section1-text, .section2-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    margin: 0%;
+}
+
+.section1-title, .section2-title{
+    padding-top: 5%;
+    font-size: 45px;
+    padding-inline: 10%;
+}
+
+.section1-img{
+    background-image: url(/images/desktop/image-transform.jpg);
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+a {
+    text-decoration: none;
+}
+.section1-learn:hover{
+    text-decoration: underline;
+    text-decoration-color:yellow;
+    text-decoration-style: wavy;
+}
+.section2-learn:hover{
+    text-decoration: underline;
+    text-decoration-color:red;
+    text-decoration-style: wavy;
+}
+.section2-img{
+    background-image:url(/images/desktop/image-stand-out.jpg);
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.section2-phrase, .section1-phrase{
+    margin-inline: 10%;
+}
+.section3-title1{
+    color:  hsl(167, 40%, 24%);
+}
+.section3-title2{
+    color:  hsl(198, 62%, 26%);
+}
+
+.section3-text1{
+    display: flex;
+    align-items: end;
+    text-align: center;
+    width: 50%;
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+}
+.section3-text2{
+    display: flex;
+    align-items: end;
+    text-align: center;
+    width: 50%;
+    background-image: url(/images/desktop/image-photography.jpg);
+}
+
+.section3-phrase1, .section3-phrase2{
+    padding-bottom: 5%;
+    margin-inline: 20%;
+}
+.client-section{
+    padding-block: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 252, 240);
+    width: 100%;
+}
+.client-title{
+    color: hsl(210, 4%, 67%) ;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.clients{
+    display: flex;
+    margin-inline: 7%;
+    
+}
+.client{
+    margin-inline: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.picture{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.client-name{
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    color:hsl(213, 9%, 39%) ;
+}
+.client-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.images{
+    width: 100%;
+    display: inline-flex;
+    margin: 0%;
+}
+.images1,.images2,.images3,.images4{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+footer{
+    color:  hsl(169, 38%, 16%);
+    margin-top: -1%;
+    width: 100%;
+    height: 200px;
+    background-color:   hsl(168, 33%, 49%) ;
+}
+.footer-title{
+    padding-top: 5%;
+    margin: 0%;
+    text-align: center;
+}
+.footer-itens{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+.footer-item{
+    margin-inline: 5%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons-item{
+    margin: 2%;
+}
